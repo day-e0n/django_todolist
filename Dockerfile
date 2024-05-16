@@ -1,6 +1,7 @@
 FROM python:3.11-alpine
 RUN pip3 install Django==5.0.3
 RUN apk add gcc musl-dev
+RUN apk add sqlite
 
 COPY . /app
 WORKDIR /app

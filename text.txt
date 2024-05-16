@@ -1,0 +1,300 @@
+  867  make
+  868  ./test
+  869  make clean
+  870  make
+  871  ./test
+  872  ./test
+  873  docker run -dp 80:80 docker/getting-started
+  874  docker run -dp 80:80 docker/getting-started
+  875  git clone https://github.com/docker/getting-started-app.git
+  876  ls
+  877  cd /path/to/getting-started-app
+  878  cd getting-started-app
+  879  touch Dockerfile
+  880  vi dockerfile_1
+  881  docker build -t getting-started .
+  882  docker run -dp 127.0.0.1:3000:3000 getting-started
+  883  docker build -t getting-started .
+  884  docker build -t getting-started .
+  885  vi getting-started
+  886  docker build -t getting-started .
+  887  docker build -t getting-started .
+  888  docker build -t getting-started .
+  889  docker run -dp 127.0.0.1:3000:3000 getting-started
+  890  docker build -t getting-started .
+  891  docker ps
+  892  docker stop <the-container-id>
+  893  docker stop <the-container-id>
+  894  git clone https://github.com/day-e0n/django_todolist
+  895  cd django_todolist
+  896  python --version
+  897  docker ps -a
+  898  cat /etc/docker/daemon.json
+  899  cd etc
+  900  cd /etc
+  901  cd /docker
+  902  cd docker
+  903  sudo systemctl stop docker
+  904  sudo systemctl stop docker.socket
+  905  cd ..
+  906  sudo systemctl stop docker
+  907  cd ~
+  908  sudo systemctl stop docker
+  909  cd ..
+  910  cd ~
+  911  systemctl stop docker
+  912  systemctl stop docker
+  913  conda deactivate
+  914  sudo systemctl stop docker
+  915  systemctl stop docker
+  916  brew systemctl stop docker
+  917  brew service docker stop
+  918  sudo service docker stop
+  919  sudo services docker stop
+  920  brew services docker stop
+  921  restart
+  922  brew services docker restart
+  923  brew services docker start
+  924  brew services docker run
+  925  brew docker run
+  926  brew run docker
+  927  docker run
+  928  sudo docker build -t django-server
+  929  sudo groupadd docker
+  930  sudo groupadd docker
+  931  brew groupadd docker
+  932  sudo usermod -aG docker $USER
+  933  sudo
+  934  sudo groupadd
+  935  groupadd
+  936  sudo chown -R $(whoami) ~/.docker
+  937  sudo groupadd docker
+  938  docker ps -a
+  939  docker build -t django-server .
+  940  docker build -t django-server .
+  941  cd /Users/weedayeon/django_todolist
+  942  docker build -t django-server .
+  943  cd ..
+  944  cd /Users/weedayeon/django_todolist
+  945  docker build -t django-server .
+  946  docker build -t django-server .
+  947  cd /Users/weedayeon/django_todolist
+  948  docker build -t django-server .
+  949  docker build -t django-server .
+  950  docker build -t django-server .
+  951  cd ..
+  952  pip3 install --upgrade pip
+  953  cd /Users/weedayeon/django_todolist
+  954  docker build -t django-server .
+  955  cd ..
+  956  RUN pip3 install Django
+  957  pip3 install Django
+  958  brew install Django
+  959  cd /Users/weedayeon/django_todolist
+  960  docker build -t django-server .
+  961  docker build -t django-server .
+  962  docker build -t django-server .
+  963  docker build -t django-server .
+  964  pip freeze > requirement.txt
+  965  conda activate
+  966  pip freeze > requirement.txt
+  967  docker build -t django-server .
+  968  docker build -t django-server
+  969  sudo docker build -t django-server .
+  970  docker build -t django-server .
+  971  conda deactivate
+  972  docker build -t django-server .
+  973  sudo docker build -t django-server .
+  974  sudo chmod 666 /var/run/docker.sock
+  975  sudo chmod 666 /var/run/docker.sock
+  976  sudo chown -R $(whoami) ~/.docker
+  977  docker build -t django-server .
+  978  docker build -t django-server .
+  979  docker build -t django-server .
+  980  docker build -t django-server .
+  981  pip list --format=freeze > requirements.txt
+  982  conda activate
+  983  pip list --format=freeze > requirements.txt
+  984  docker build -t django-server .
+  985  python --version
+  986  docker build -t django-server .
+  987  django --version
+  988  django -v
+  989  python -m django --version
+  990  python -m django --version .
+  991  docker build -t django-server .
+  992  conda deactivate
+  993  python --version
+  994  python -m django --versioin
+  995  conda activate
+  996  docker build -t django-server .
+  997  docker build -t django-server .
+  998  docker build -t django-server .
+  999  docker run -dp 8000:8000 django-server
+ 1000  docker ps -a
+ 1001  /usr/bin/python3 /Users/weedayeon/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /Users/weedayeon/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/zsh/envVars.txt
+ 1002  pip freeze
+ 1003  pip freeze > requirement.txt
+ 1004  docker build -t django-server .
+ 1005  sudo chmod 0666 /.docker/run/docker.sock
+ 1006  sudo chmod 0666 unix:///Users/weedayeon/.docker/run/docker.sock
+ 1007  sudo chmod 0666 Users/weedayeon/.docker/run/docker.sock
+ 1008  sudo chmod 0666 /Users/weedayeon/.docker/run/docker.sock
+ 1009  docker build -t django-server .
+ 1010  sudo docker build -t django-server .
+ 1011  brew docker build -t django-server .
+ 1012  brew docker build -t django-server .
+ 1013  sudo docker build -t django-server .
+ 1014  docker build -t django-server .
+ 1015  git status
+ 1016  git remote -v
+ 1017  git add.
+ 1018  git add .
+ 1019  git commit -m "Dockerfile 생성"
+ 1020  git push origin main
+ 1021  python manage.py runserver
+ 1022  python manage.py runserver
+ 1023  cd ~
+ 1024  python -m pip install django
+ 1025  sudo python3 -m pip install django
+ 1026  python get-pip.py
+ 1027  mkdir start-django
+ 1028  cd start-django
+ 1029  python3 -m venv venvproj01
+ 1030  cd venvproj01
+ 1031  source bin/activate
+ 1032  cd ..
+ 1033  pip3 install django
+ 1034  python3 -m django --version
+ 1035  deactivate
+ 1036  cd ~
+ 1037  cd django-list
+ 1038  cd /Users/weedayeon/django_todolist
+ 1039  python manage.py runserver
+ 1040  pip install django
+ 1041  python manage.py runserver
+ 1042  cd ~
+ 1043  cd venvj01
+ 1044  cd venvproj01
+ 1045  python manage.py runserver
+ 1046  pip install django
+ 1047  cd venvproj01
+ 1048  cd venvproj01
+ 1049  cd venvproj01
+ 1050  cd venvproj01
+ 1051  python manage.py runserver
+ 1052  pip list
+ 1053  cd venvproj01
+ 1054  source bin/activate
+ 1055  cd ~
+ 1056  python3 -m venv venvproj01
+ 1057  cd venvproj01
+ 1058  python manage.py runserver
+ 1059  pip install django
+ 1060  python manage.py runserver
+ 1061  cd ~
+ 1062  mkdir django
+ 1063  python3 -m venv myvenv
+ 1064  source myvenv/bin/activate
+ 1065  pip install django
+ 1066  python manage.py runserver
+ 1067  brew python manage.py runserver
+ 1068  brew manage.py runserver
+ 1069  pip list
+ 1070  which python
+ 1071  python --version
+ 1072  pip list
+ 1073  python manage.py runserver
+ 1074  python -m pip install django~=2.2
+ 1075  python manage.py runserver
+ 1076  pip show django
+ 1077  python manage.py runserver
+ 1078  pip uninstall django
+ 1079  pip install django
+ 1080  pip list
+ 1081  python manage.py runserver
+ 1082  python manage.py runserver
+ 1083  cd ~
+ 1084  deactivate
+ 1085  python manage.py runserver
+ 1086  cd /Users/weedayeon/django_todolist
+ 1087  python manage.py runserver
+ 1088  source myvenv/bin/activate
+ 1089  source myvenv/bin/activate
+ 1090  cd ~
+ 1091  source myvenv/bin/activate
+ 1092  python manage.py runserver
+ 1093  cd /Users/weedayeon/django_todolist
+ 1094  python manage.py runserver
+ 1095  python manage.py runserver
+ 1096  python manage.py runserver
+ 1097  python manage.py runserver
+ 1098  source myvenv/bin/activate
+ 1099  cd ..
+ 1100  source myvenv/bin/activate  
+ 1101  cd /Users/weedayeon/django_todolist
+ 1102  python manage.py runserver
+ 1103  python manage.py runserver
+ 1104  python manage.py runserver
+ 1105  python manage.py runserver
+ 1106  python manage.py runserver
+ 1107  python manage.py migrate
+ 1108  python manage.py runserver
+ 1109  python manage.py runserver
+ 1110  python manage.py migrate
+ 1111  python manage.py migrate
+ 1112  python manage.py migrate
+ 1113  python manage.py migrate
+ 1114  python manage.py migrate
+ 1115  python manage.py runserver
+ 1116  python manage.py runserver
+ 1117  python manage.py runserver
+ 1118  cd ~
+ 1119  deactivate
+ 1120  docker build -t django-server .
+ 1121  sudo chown -R $(whoami) ~/.docker
+ 1122  docker build -t django-server .
+ 1123  sudo chmod 0666 /Users/weedayeon/.docker/run/docker.sock
+ 1124  docker build -t django-server .
+ 1125  sudo docker build -t django-server .
+ 1126  git remote -v
+ 1127  deactivate
+ 1128  conda deactivate
+ 1129  sudo docker build -t django-server .
+ 1130  git add .
+ 1131  cd ..
+ 1132  git remove -v
+ 1133  git remote -v
+ 1134  /Users/weedayeon
+ 1135  cd /Users/weedayeon
+ 1136  git remote -v
+ 1137  cd desktop
+ 1138  cd/Users/weedayeon/django_todolist 
+ 1139  cd /Users/weedayeon/django_todolist
+ 1140  git remote -v
+ 1141  git add .
+ 1142  git push
+ 1143  git status
+ 1144  git commit
+ 1145  git commit -m '수정된 todolist'
+ 1146  git push origin main
+ 1147  git remote -vdocker run -dp 8000:8000 django-server
+ 1148  docker run -dp 8000:8000 django-server
+ 1149  docker build -t django-server .
+ 1150  docker ps -a
+ 1151  docker run -dp 8000:8000 django-server
+ 1152  docker run -dp 8000:8000 django-server
+ 1153  sudo lsof -i :8880
+ 1154  lsof -i :8880
+ 1155   sudo service docker stop
+ 1156  service docker stop
+ 1157  brew service docekr stop
+ 1158  conda activate
+ 1159  docker run -dp 8000:8000 django-server
+ 1160  cd /Users/weedayeon/django_todolist
+ 1161  history
+ 1162  history -100
+ 1163  history -300 > /Users/weedayeon/Desktop/명령어 여깄다 text.txt
+ 1164  history -300 > /Users/weedayeon/Desktop/명령어 여깄다 text.txt
+ 1165  history -300 > /Users/weedayeon/Desktop/명령어 여깄ᄃ다/text.txt
+ 1166  hisotry -300 > text.txt
