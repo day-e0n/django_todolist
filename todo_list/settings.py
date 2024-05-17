@@ -55,10 +55,21 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite'),
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'todo_database',
+        'USER': 'root',
+        'PASSWORD': '1234',
+        'HOST': 'db',
+        'PORT': '3306',
     }
 }
 
